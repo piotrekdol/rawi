@@ -1,0 +1,70 @@
+:root {
+  --blue: #4B67C3;
+  --darkblue: #435BA1;
+  --white: #FFFFFF;
+  --black: #333333;
+  --blacklight: #666666; 
+  --mezzoblack: #CECECE;
+  --light: #F2F2F2;
+  --hardlight: #EAEAEA;
+  --green: #00D6C4;
+}
+
+
+body {
+  background-size: cover;
+  font-family: 'Popppins', sans-serif !important;
+  background-color: var( --white);
+}
+
+/* Change Width and Height of Logo Image + Add Custom Image File */
+.login h1 a {
+  width: 275px;
+  height: 81px;
+  background-size: 275px 81px;
+}
+ 
+/* Add a few changes to the color and style of form itself */
+.login label {
+  margin-bottom: 1em;
+  font-weight: 400 !important;
+	font-size: 13px !important;
+	display: inline-block !important;
+}
+ 
+.login form .input {
+  font-weight: 400;
+}
+ 
+.login #backtoblog a, .login #nav a {
+  color: var( --black);
+}
+
+.login #backtoblog a:hover, .login #nav a:hover {
+  color: var( --black);
+	text-decoration: underline;
+}
+ 
+.wp-core-ui .button-primary {
+  background: var( --blue);
+	border-radius: 0px !important;
+	border: 0px solid !important;
+	transition: 0.3s ease;
+}
+
+.wp-core-ui .button-primary:hover {
+  background: var( --black); !important;
+}
+
+input[type=text], input[type=password], input[type=checkbox] {
+	border: 1px solid #d9d9d9;
+}
+
+.login #nav a {
+	
+}
+
+.login form {
+	border: 1px solid #d9d9d9;
+}
+
